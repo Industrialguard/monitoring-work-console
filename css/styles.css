@@ -43,7 +43,7 @@ a {
 /*Section*/
 .section {
   padding-top: 94px;
-  padding-bottom: 209px;
+  padding-bottom: 228px;
 }
 
 /*Page header*/
@@ -51,7 +51,7 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
 
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 /*Navigation*/
@@ -63,11 +63,11 @@ a {
 
 .logo-header {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 1.25;
 
   font-family: Raleway;
-  color: #6c757d;
+  color: #34547a;
 }
 
 .logo-text {
@@ -84,10 +84,19 @@ a {
 }
 
 .header-item {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .header-item:last-child {
   margin-right: 0;
+}
+
+.header-link {
+  display: inline-block;
+
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
 /*Section work*/
@@ -103,16 +112,21 @@ a {
 
 .card-link {
   display: block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-link:hover,
+.card-link:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .card-item {
   width: 270px;
   margin-top: 40px;
   margin-right: 30px;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .card-item:last-child {
@@ -125,6 +139,19 @@ a {
 
 .card-title {
   margin-bottom: 8px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 /*Footer page*/
@@ -135,9 +162,9 @@ a {
   background-color: #34547a;
 }
 
-.footer-link {
+.footer-logo {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 1.25;
 
   font-family: Raleway;
