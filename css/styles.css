@@ -1,0 +1,68 @@
+/* Global elements */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Container */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*Navigation*/
+
+.logo-link {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.25;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.1em;
+}
+
+/*Section work*/
+.card-link {
+  display: block;
+}
+
+.card-item {
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.content-box {
+  padding: 20px 28px;
+}
+
+.card-title {
+  margin-bottom: 8px;
+}
