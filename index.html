@@ -6,54 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MonBar v1.0</title>
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка платформы-->
-    <header>
+    <header class="page-header">
       <div class="container">
-        <nav>
-          <a href="/" class="logo-link">
+        <nav class="header-nav">
+          <a href="/" class="logo-header">
             MonBar <span class="logo-text">v1.0</span>
           </a>
 
-          <ul>
-            <li>
+          <ul class="header-list">
+            <li class="header-item">
               <a
                 href="https://docs.google.com/spreadsheets/d/18Z8FXjYu4UEP89vYLEOkjkVH2_-hx4B18GiMJqTwhQo/edit#gid=0"
                 >График дежурств</a
               >
             </li>
-            <li><a href="#">Контакты сотрудников</a></li>
+            <li class="header-item"><a href="#">Контакты сотрудников</a></li>
           </ul>
         </nav>
-
-        <!--Секция рабочей среды-->
-        <section>
-          <div class="container">
-            <h1>Рабочая среда</h1>
-
-            <ul>
-              <li class="card-item">
-                <a href="" class="card-link">
-                  <div class="cards-thumb">
-                    <img
-                      src="./images/upc.jpg"
-                      alt="Логотип упц"
-                      width="200"
-                      height="200"
-                    />
-                  </div>
-                  <div class="content-box">
-                    <h2 class="card-title">Консоль UPC</h2>
-                    <p class="card-text">Портал для проверки операций E-com</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
       </div>
     </header>
+
+    <main>
+      <!--Секция рабочей среды-->
+      <section class="section">
+        <div class="container">
+          <h1 class="work-title">Рабочая среда</h1>
+
+          <ul class="work-list">
+            <li class="card-item">
+              <a
+                href="https://secure.upc.ua/go/merchant"
+                target="_blank"
+                class="card-link"
+              >
+                <div class="cards-thumb">
+                  <img
+                    src="./images/upc.jpg"
+                    alt="Логотип упц"
+                    width="200"
+                    height="200"
+                  />
+                </div>
+                <div class="content-box">
+                  <h2 class="card-title">UPC console</h2>
+                  <p class="card-text">Портал для проверки операций E-com</p>
+                </div>
+              </a>
+            </li>
+            <li class="card-item">
+              <a
+                href="https://secure.upc.ua/mt/merchant/login"
+                target="_blank"
+                class="card-link"
+              >
+                <div class="cards-thumb">
+                  <img
+                    src="./images/upc.jpg"
+                    alt="Логотип упц"
+                    width="200"
+                    height="200"
+                  />
+                </div>
+                <div class="content-box">
+                  <h2 class="card-title">UPC console</h2>
+                  <p class="card-text">Портал для проверки операций P2P/c2a</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <a href="/" class="footer-link">
+          MonBar <span class="logo-text">v1.0</span>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
