@@ -57,7 +57,7 @@ a {
 /*Navigation*/
 .header-nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -97,11 +97,22 @@ a {
   line-height: 1.87;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+  color: rgb(21, 122, 204);
 }
 
 /*Section work*/
 .work-title {
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .work-list {
