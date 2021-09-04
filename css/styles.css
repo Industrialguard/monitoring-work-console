@@ -40,6 +40,11 @@ a {
   padding-right: 15px;
 }
 
+/*Section API*/
+.section-api {
+  padding-top: 48px;
+}
+
 /*Section*/
 .section {
   padding-top: 94px;
@@ -181,12 +186,11 @@ a {
 }
 
 .btn-api:hover,
-.btn-api:focus{
-  background-color: #2196F3;
+.btn-api:focus {
+  background-color: #2196f3;
   color: #fff;
+  cursor: pointer;
 }
-
-
 
 /*Footer page*/
 .page-footer {
@@ -205,7 +209,6 @@ a {
   color: #fff;
 }
 
-
 /* Modal window */
 .backdrop {
   position: fixed;
@@ -213,7 +216,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
 
   opacity: 1;
   visibility: visible;
@@ -279,26 +282,30 @@ a {
   fill: rgb(21, 122, 204);
 }
 
-.container-btn{
+.container-btn {
   padding: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.modal-list{
+.modal-list {
   display: flex;
   flex-direction: column;
 }
 
-.modal-item{
+.modal-item {
   margin-bottom: 10px;
 }
 
-.modal-item:last-child{
-margin-bottom: 0;
+.modal-item:last-child {
+  margin-bottom: 0;
 }
 
-.api-link{
+.api-link {
   display: inline-block;
   width: 140px;
-  padding: 10px 32px;
+  padding: 10px 11px;
   border: 1px solid black;
+  border-radius: 6px;
+  text-align: center;
 }
