@@ -138,6 +138,9 @@ a {
 .card-link {
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 23px;
+  
+  overflow: hidden;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -149,13 +152,13 @@ a {
 }
 
 .content-box {
-  padding: 20px 28px;
+  padding: 8px 21px;
 
   background-color: rgb(216, 216, 216);
 }
 
 .card-title {
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 
   font-weight: bold;
   font-size: 18px;
