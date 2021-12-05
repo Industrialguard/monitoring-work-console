@@ -65,8 +65,10 @@
   }
 
   function onEscKeyPress(event) {
-    console.log('Это так')
-    toggleModal();
+    if (event.code === `Escape`) {
+      toggleModal();
+       console.log('Это так')
+    }
   }
 
 })();
